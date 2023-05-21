@@ -4,3 +4,10 @@
     max-width: 100vw;
     min-height: 100vh;
 }
+
+.title {
+    font-weight: var(--fw-400);
+    font-size: 4rem;
+    color: var(--title-color);
+    text-transform: uppercase;
+}
