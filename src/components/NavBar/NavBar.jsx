@@ -16,12 +16,12 @@ const NavBar = () => {
                 <img src={logo} alt='Oxygen logo' className='logo-img' />
             </Link>
             <nav className='header-nav row'>
-                <Link to='oxygen/about' className='logo'>About us</Link>
-                <Link to='oxygen/works' className='logo'>Works</Link>
-                <Link to='oxygen/interior' className='logo'>interior</Link>
-                <Link to='oxygen/available-works' className='logo'>Available works</Link>
-                <Link to='oxygen/activities' className='logo'>Activities</Link>
-                <Link to='oxygen/contacts' className='logo'>Contacts</Link>
+                <Link to='oxygen/about' className='header-nav__item'>About us</Link>
+                <Link to='oxygen/works' className='header-nav__item'>Works</Link>
+                <Link to='oxygen/interior' className='header-nav__item'>interior</Link>
+                <Link to='oxygen/available-works' className='header-nav__item'>Available works</Link>
+                <Link to='oxygen/activities' className='header-nav__item'>Activities</Link>
+                <Link to='oxygen/contacts' className='header-nav__item'>Contacts</Link>
             </nav>
             <Link to='oxygen/bag' className='bag-logo'>
                 <img src={bag} alt='bag logo' className='bag-logo__img' />
