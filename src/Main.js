@@ -9,6 +9,7 @@ import Available from './pages/Available/Available';
 import Activities from './pages/Activities/Activities';
 import Contacts from './pages/Contacts/Contacts';
 import Bag from './pages/Bag/Bag';
+import Footer from './components/Footer/Footer';
 
 
 const Main = () => {
@@ -25,6 +26,7 @@ const Main = () => {
                 <Route path='/oxygen/contacts' element={<Contacts />} />
                 <Route path='/oxygen/bag' element={<Bag />} />
             </Routes>
+            <Footer />
         </div>
     );
 };
