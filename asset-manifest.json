@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/oxygen/static/css/main.32fc85c0.css",
-    "main.js": "/oxygen/static/js/main.a930aaca.js",
+    "main.css": "/oxygen/static/css/main.7043d130.css",
+    "main.js": "/oxygen/static/js/main.a2f328c7.js",
+    "static/media/back_01.png": "/oxygen/static/media/back_01.845d85e41c1c5540b5d3.png",
+    "static/media/back_03.png": "/oxygen/static/media/back_03.2eab53b72ec7f09cb764.png",
+    "static/media/back_02.png": "/oxygen/static/media/back_02.e841c33d40ab278d653e.png",
     "static/media/logo.svg": "/oxygen/static/media/logo.3a54bc89be2bb9deee7915c56eb1eb98.svg",
     "static/media/bag.svg": "/oxygen/static/media/bag.90bd4d43c8f4d4c5256abddac97dbe79.svg",
     "index.html": "/oxygen/index.html",
-    "main.32fc85c0.css.map": "/oxygen/static/css/main.32fc85c0.css.map",
-    "main.a930aaca.js.map": "/oxygen/static/js/main.a930aaca.js.map"
+    "main.7043d130.css.map": "/oxygen/static/css/main.7043d130.css.map",
+    "main.a2f328c7.js.map": "/oxygen/static/js/main.a2f328c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.32fc85c0.css",
-    "static/js/main.a930aaca.js"
+    "static/css/main.7043d130.css",
+    "static/js/main.a2f328c7.js"
   ]
 }
