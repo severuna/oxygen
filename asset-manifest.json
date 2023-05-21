@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/oxygen/static/css/main.a34f70fa.css",
-    "main.js": "/oxygen/static/js/main.a2f328c7.js",
+    "main.css": "/oxygen/static/css/main.99051e9c.css",
+    "main.js": "/oxygen/static/js/main.4352f1e5.js",
     "static/media/back_01.png": "/oxygen/static/media/back_01.845d85e41c1c5540b5d3.png",
     "static/media/back_03.png": "/oxygen/static/media/back_03.2eab53b72ec7f09cb764.png",
     "static/media/back_02.png": "/oxygen/static/media/back_02.e841c33d40ab278d653e.png",
     "static/media/logo.svg": "/oxygen/static/media/logo.3a54bc89be2bb9deee7915c56eb1eb98.svg",
+    "static/media/Facebook.svg": "/oxygen/static/media/Facebook.264325658d27daceb52c81ff8a6ef6c7.svg",
+    "static/media/Instagram.svg": "/oxygen/static/media/Instagram.92175528b2ca8b7cf7fdd3992843a3ad.svg",
+    "static/media/mail.svg": "/oxygen/static/media/mail.b13a0e458a4021952e8b37371ec9be2f.svg",
     "static/media/bag.svg": "/oxygen/static/media/bag.90bd4d43c8f4d4c5256abddac97dbe79.svg",
+    "static/media/footer-logo.svg": "/oxygen/static/media/footer-logo.a39a0c7385a6224c304336a1bbe7e66f.svg",
     "index.html": "/oxygen/index.html",
-    "main.a34f70fa.css.map": "/oxygen/static/css/main.a34f70fa.css.map",
-    "main.a2f328c7.js.map": "/oxygen/static/js/main.a2f328c7.js.map"
+    "main.99051e9c.css.map": "/oxygen/static/css/main.99051e9c.css.map",
+    "main.4352f1e5.js.map": "/oxygen/static/js/main.4352f1e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a34f70fa.css",
-    "static/js/main.a2f328c7.js"
+    "static/css/main.99051e9c.css",
+    "static/js/main.4352f1e5.js"
   ]
 }
