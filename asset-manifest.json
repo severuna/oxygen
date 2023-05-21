@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/oxygen/static/css/main.77376726.css",
-    "main.js": "/oxygen/static/js/main.fbdf8426.js",
+    "main.css": "/oxygen/static/css/main.4e2b6ec4.css",
+    "main.js": "/oxygen/static/js/main.bc9b59f8.js",
+    "static/media/logo.svg": "/oxygen/static/media/logo.3a54bc89be2bb9deee7915c56eb1eb98.svg",
+    "static/media/bag.svg": "/oxygen/static/media/bag.90bd4d43c8f4d4c5256abddac97dbe79.svg",
     "index.html": "/oxygen/index.html",
-    "main.77376726.css.map": "/oxygen/static/css/main.77376726.css.map",
-    "main.fbdf8426.js.map": "/oxygen/static/js/main.fbdf8426.js.map"
+    "main.4e2b6ec4.css.map": "/oxygen/static/css/main.4e2b6ec4.css.map",
+    "main.bc9b59f8.js.map": "/oxygen/static/js/main.bc9b59f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.77376726.css",
-    "static/js/main.fbdf8426.js"
+    "static/css/main.4e2b6ec4.css",
+    "static/js/main.bc9b59f8.js"
   ]
 }
