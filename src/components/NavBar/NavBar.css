@@ -1,10 +1,8 @@
 .header {
     justify-content: space-between;
-    padding: 3rem 5rem;
+    padding: 4.4rem 12rem;
     align-items: center;
-    position: sticky;
-    top: 0;
-    left: 0;
+    z-index: 1;
 }
 
 .header-nav {
