@@ -4,6 +4,7 @@ import Banner from './Banner/Banner';
 import AboutSection from './sections/AboutSection/AboutSection';
 import WorksSection from './sections/WorksSection/WorksSection';
 import InteriorSection from './sections/InterioirSection/InteriorSection';
+import AvailableSection from './sections/AvailableSection/AvailableSection';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <AboutSection />
             <WorksSection />
             <InteriorSection />
+            <AvailableSection />
         </div>
     );
 };

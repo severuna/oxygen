@@ -1,7 +1,8 @@
 import React from 'react';
 import Button from '../../../module/Button/Button';
+import Section from '../../../module/Section/Section';
+import ListContainer from '../../../module/ListContainer/ListContainer';
 import WorkItem from './WorkItem/WorkItem';
-import './WorksSection.css';
 import accessories from './img/Accessories.png';
 import vases from './img/vases.png';
 import biofireplaces from './img/Biofireplaces.png';
@@ -51,13 +52,15 @@ const WorksSection = () => {
     })
 
     return (
-        <section className='home-works column'>
-            <h2 className='title'>about us</h2>
-            <div className='home-works__list row'>
-                {elements}
-            </div>
-            <Button variant='view more' />
-        </section>
+        <Section content={
+            <>
+                <h2 className='title'>Works</h2>
+                <ListContainer content={
+                    elements
+                } />
+                <Button variant='view more' />
+            </>
+        } />
     );
 };
 
