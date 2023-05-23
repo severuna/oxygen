@@ -1,6 +1,7 @@
 import React from 'react';
 import Section from '../../../module/Section/Section';
 import ListContainer from '../../../module/ListContainer/ListContainer';
+import AvailableItem from './AvailableItem/AvailableItem';
 import one from './img/item_1.png';
 import two from './img/item_2.png';
 import three from './img/item_3.png';
@@ -34,14 +35,14 @@ const AvailableSection = () => {
     let elements = [];
 
     available_list.forEach((element) => {
-        console.log(element)
+        elements.push(<AvailableItem key={element.id} {...element} />)
     })
 
     return (
         <Section content={
             <>
                 <h2 className='title'>Available works </h2>
-                <ListContainer content={''} />
+                <ListContainer content={elements} />
             </>
         } />
     );
