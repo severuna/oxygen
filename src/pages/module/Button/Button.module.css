@@ -1,6 +1,6 @@
 .btn {
     height: 4.5rem;
-    width: 9rem;
+    width: max-content;
     border-top: 1px solid #d6d2ce;
     border-bottom: 1px solid #d6d2ce;
     text-align: center;
