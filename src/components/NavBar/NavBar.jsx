@@ -19,7 +19,6 @@ const NavBar = () => {
                 <Link to='oxygen/about' className='header-nav__item'>About us</Link>
                 <Link to='oxygen/works' className='header-nav__item'>Works</Link>
                 <Link to='oxygen/interior' className='header-nav__item'>interior</Link>
-                <Link to='oxygen/available-works' className='header-nav__item'>Available works</Link>
                 <Link to='oxygen/contacts' className='header-nav__item'>Contacts</Link>
             </nav>
             <Link to='oxygen/bag' className='bag-logo'>

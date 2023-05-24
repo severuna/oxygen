@@ -5,7 +5,6 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Works from './pages/Works/Works';
 import Interior from './pages/Interior/Interior';
-import Available from './pages/Available/Available';
 import Contacts from './pages/Contacts/Contacts';
 import Bag from './pages/Bag/Bag';
 import Footer from './components/Footer/Footer';
@@ -20,7 +19,6 @@ const Main = () => {
                 <Route path='/oxygen/about' element={<About />} />
                 <Route path='/oxygen/works' element={<Works />} />
                 <Route path='/oxygen/interior' element={<Interior />} />
-                <Route path='/oxygen/available-works' element={<Available />} />
                 <Route path='/oxygen/contacts' element={<Contacts />} />
                 <Route path='/oxygen/bag' element={<Bag />} />
             </Routes>
