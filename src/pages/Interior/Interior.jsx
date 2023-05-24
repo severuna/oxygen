@@ -2,6 +2,7 @@ import React from 'react';
 import './Interior.css';
 import ListContainer from '../module/ListContainer/ListContainer';
 import InteriorItem from './InteriorItem/InteriorItem';
+import Section from '../module/Section/Section';
 import one from './img/interior_1.png';
 import two from './img/interior_2.png';
 import three from './img/interior_3.png';
@@ -63,13 +64,15 @@ const Interior = () => {
     });
 
     return (
-        <div className="interior column">
+        <Section content={
+            <>
             <div className='interior-head row'>
                 <h1 className="page-title">In the interior</h1>
                 <p className='description'>Ukrainian designers show the spirit of freedom and courage, the characteristics of which, among others, are the main ones. Their research delves into meanings and meanings to find new combinations of familiar natural materials and craft techniques.</p>
             </div>
             <ListContainer content={elements} />
-        </div>
+            </>
+        } />
     );
 };
 
