@@ -3,7 +3,7 @@ import './Home.css';
 import Banner from './Banner/Banner';
 import AboutSection from './sections/AboutSection/AboutSection';
 import WorksSection from './sections/WorksSection/WorksSection';
-import InteriorSection from './sections/InterioirSection/InteriorSection';
+import InteriorSection from './sections/InteriorSection/InteriorSection';
 
 const Home = () => {
     return (
