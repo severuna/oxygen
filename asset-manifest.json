@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/oxygen/static/css/main.4a9ed06f.css",
-    "main.js": "/oxygen/static/js/main.64b71a36.js",
+    "main.css": "/oxygen/static/css/main.ba8ad9a9.css",
+    "main.js": "/oxygen/static/js/main.6b137cc0.js",
     "static/media/back_01.png": "/oxygen/static/media/back_01.845d85e41c1c5540b5d3.png",
     "static/media/back_03.png": "/oxygen/static/media/back_03.2eab53b72ec7f09cb764.png",
     "static/media/back_02.png": "/oxygen/static/media/back_02.e841c33d40ab278d653e.png",
     "static/media/interior-banner.png": "/oxygen/static/media/interior-banner.6015acd0d382c1c24a86.png",
     "static/media/section-about.png": "/oxygen/static/media/section-about.ced8725d6feedbd99749.png",
+    "static/media/item_6.png": "/oxygen/static/media/item_6.c22309b6e459339a41a8.png",
     "static/media/light.png": "/oxygen/static/media/light.c22309b6e459339a41a8.png",
     "static/media/aroma_lamps.png": "/oxygen/static/media/aroma_lamps.c6afe313c09736e5618c.png",
+    "static/media/item_9.png": "/oxygen/static/media/item_9.c6afe313c09736e5618c.png",
     "static/media/Biofireplaces.png": "/oxygen/static/media/Biofireplaces.78a2ceb57c8d2abad980.png",
+    "static/media/item_8.png": "/oxygen/static/media/item_8.78a2ceb57c8d2abad980.png",
+    "static/media/item_4.png": "/oxygen/static/media/item_4.d87b5679dcf70643c635.png",
+    "static/media/item_2.png": "/oxygen/static/media/item_2.43584aa95944e17d333e.png",
+    "static/media/item_1.png": "/oxygen/static/media/item_1.ff18f406959e57c5a688.png",
+    "static/media/item_3.png": "/oxygen/static/media/item_3.32af92d00b5e60485119.png",
     "static/media/interior_4.png": "/oxygen/static/media/interior_4.52cbbf3905adbd8c2c25.png",
     "static/media/interior.png": "/oxygen/static/media/interior.1920d5b853f45bd72fa6.png",
     "static/media/Accessories.png": "/oxygen/static/media/Accessories.e427ee02eb4362e955ae.png",
+    "static/media/item_5.png": "/oxygen/static/media/item_5.e427ee02eb4362e955ae.png",
     "static/media/interior_2.png": "/oxygen/static/media/interior_2.195c9d957f1abc82dea3.png",
     "static/media/interior_5.png": "/oxygen/static/media/interior_5.cdcdeea5e468f533949a.png",
     "static/media/interior_7.png": "/oxygen/static/media/interior_7.8a17a93d81b79c2dcbb8.png",
@@ -20,6 +28,7 @@
     "static/media/interior_8.png": "/oxygen/static/media/interior_8.8e1157531c9073b6daad.png",
     "static/media/interior_6.png": "/oxygen/static/media/interior_6.b36368a02baa0678e0fa.png",
     "static/media/interior_1.png": "/oxygen/static/media/interior_1.e66ad1b5dfd151148757.png",
+    "static/media/item_7.png": "/oxygen/static/media/item_7.1824c908d794704332ed.png",
     "static/media/vases.png": "/oxygen/static/media/vases.1824c908d794704332ed.png",
     "static/media/logo.svg": "/oxygen/static/media/logo.3a54bc89be2bb9deee7915c56eb1eb98.svg",
     "static/media/Facebook.svg": "/oxygen/static/media/Facebook.264325658d27daceb52c81ff8a6ef6c7.svg",
@@ -28,11 +37,11 @@
     "static/media/bag.svg": "/oxygen/static/media/bag.90bd4d43c8f4d4c5256abddac97dbe79.svg",
     "static/media/footer-logo.svg": "/oxygen/static/media/footer-logo.a39a0c7385a6224c304336a1bbe7e66f.svg",
     "index.html": "/oxygen/index.html",
-    "main.4a9ed06f.css.map": "/oxygen/static/css/main.4a9ed06f.css.map",
-    "main.64b71a36.js.map": "/oxygen/static/js/main.64b71a36.js.map"
+    "main.ba8ad9a9.css.map": "/oxygen/static/css/main.ba8ad9a9.css.map",
+    "main.6b137cc0.js.map": "/oxygen/static/js/main.6b137cc0.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a9ed06f.css",
-    "static/js/main.64b71a36.js"
+    "static/css/main.ba8ad9a9.css",
+    "static/js/main.6b137cc0.js"
   ]
 }
