@@ -58,7 +58,7 @@ const WorksSection = () => {
                 <ListContainer content={
                     elements
                 } />
-                <Button variant='view more' />
+                <Button variant='view more' link={'/oxygen/works'} />
             </>
         } />
     );

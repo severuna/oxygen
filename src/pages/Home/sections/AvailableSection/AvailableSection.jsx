@@ -1,5 +1,6 @@
 import React from 'react';
 import Section from '../../../module/Section/Section';
+import Button from '../../../module/Button/Button';
 import ListContainer from '../../../module/ListContainer/ListContainer';
 import AvailableItem from './AvailableItem/AvailableItem';
 import one from './img/item_1.png';
@@ -43,6 +44,7 @@ const AvailableSection = () => {
             <>
                 <h2 className='title'>Available works </h2>
                 <ListContainer content={elements} />
+                <Button variant='view all' link={'/oxygen/available-works'}/>
             </>
         } />
     );

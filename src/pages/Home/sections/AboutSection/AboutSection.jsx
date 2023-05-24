@@ -17,7 +17,7 @@ const AboutSection = () => {
                     <br />
                     Кожний наш виріб зроблений вручну, є унікальним та ніколи не матиме жодних повторів. Також, нам довподоби ужитковість речей, тому усі вироби наділені якимись додатковими функціями, але насамперед, візуально, вони є цілом самодостатні.
                 </p>
-                <Button variant='more' link='#' />
+                <Button variant='more' link={'/oxygen/about'} />
             </div>
             <img src={about_banner} alt='about banner' className='home-about__banner'/>
         </section>
