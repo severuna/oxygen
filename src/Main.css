@@ -6,8 +6,15 @@
 }
 
 .title {
+    color: var(--title-color);
+}
+
+.title, .page-title {
     font-weight: var(--fw-400);
     font-size: 4rem;
-    color: var(--title-color);
     text-transform: uppercase;
+}
+
+.page-title {
+    color: var(--color-brown);
 }
