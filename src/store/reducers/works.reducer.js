@@ -15,70 +15,100 @@ const INITIAL_STATE = [
         src: work_1,
         title: 'Item # 1',
         price: '216',
-        size: '18,5x18см'
+        size: '18,5x18см',
+        weight: '2.4',
+        year: '2020',
+        description: ' Сeramic vase, two-sided. For fresh flowers and dried flowers. Еxists in one instance'
     },
     {
         id: 1,
         src: work_2,
         title: 'Item #2',
         price: '250',
-        size: '23x19x15сm'
+        size: '23x19x15сm',
+        weight: '1.6',
+        year: '2021',
+        description: ' Сeramic vase, two-sided. For fresh flowers and dried flowers. Еxists in one instance'
     },
     {
         id: 2,
         src: work_3,
         title: 'Item #3',
         price: '160',
-        size: '17,1x16,5x15cm'
+        size: '17,1x16,5x15cm',
+        weight: '3.6',
+        year: '2020',
+        description: ' Сeramic vase, two-sided. For fresh flowers and dried flowers. Еxists in one instance'
     },
     {
         id: 3,
         src: work_4,
         title: 'Item #4',
         price: '260',
-        size: '22 x 20,5 x 20см'
+        size: '22 x 20,5 x 20см',
+        weight: '1.8',
+        year: '2022',
+        description: ' Сeramic vase, two-sided. For fresh flowers and dried flowers. Еxists in one instance'
     },
     {
         id: 4,
         src: work_5,
         title: 'Item #5',
         price: '160',
-        size: '17,1x16,5x15cm'
+        size: '17,1x16,5x15cm',
+        weight: '2',
+        year: '2019',
+        description: ' Сeramic vase, two-sided. For fresh flowers and dried flowers. Еxists in one instance'
     },
     {
         id: 5,
         src: work_6,
         title: 'Item #6',
         price: '250',
-        size: '23x19x15сm'
+        size: '23x19x15сm',
+        weight: '1',
+        year: '2020',
+        description: ' Сeramic vase, two-sided. For fresh flowers and dried flowers. Еxists in one instance'
     },
     {
         id: 6,
         src: work_7,
         title: 'Item #7',
         price: '260',
-        size: '22 x 20,5 x 20см'
+        size: '22 x 20,5 x 20см',
+        weight: '0.6',
+        year: '2021',
+        description: ' Сeramic vase, two-sided. For fresh flowers and dried flowers. Еxists in one instance'
     },
     {
         id: 7,
         src: work_8,
         title: 'Item #8',
         price: '216',
-        size: '18,5x18см'
+        size: '18,5x18см',
+        weight: '2.9',
+        year: '2022',
+        description: ' Сeramic vase, two-sided. For fresh flowers and dried flowers. Еxists in one instance'
     },
     {
         id: 8,
         src: work_9,
         title: 'Item #9',
         price: '160',
-        size: '17,1x16,5x15cm'
+        size: '17,1x16,5x15cm',
+        weight: '1.5',
+        year: '2021',
+        description: ' Сeramic vase, two-sided. For fresh flowers and dried flowers. Еxists in one instance'
     },
     {
         id: 9,
         src: work_10,
         title: 'Item #10',
         price: '250',
-        size: '23x19x15сm'
+        size: '23x19x15сm',
+        weight: '3.2',
+        year: '2020',
+        description: ' Сeramic vase, two-sided. For fresh flowers and dried flowers. Еxists in one instance'
     },
 ];
 
