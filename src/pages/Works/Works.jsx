@@ -4,8 +4,11 @@ import ListContainer from '../module/ListContainer/ListContainer';
 import Work from './Work/Work';
 import './Works.css';
 import { useSelector } from 'react-redux';
+import { Outlet, useLocation } from 'react-router-dom';
 
 const Works = () => {
+
+    const location = useLocation();
 
     const WORKS_LIST = useSelector((state) => state.works);
 
@@ -18,8 +21,9 @@ const Works = () => {
     return (
         <Section content={
             <>
-                <h1 className='page-title'>works</h1>
-                <ListContainer content={elements}/>
+                {/* <h1 className='page-title'>works</h1>
+                <ListContainer content={elements}/> */}
+                {/[0-9]/.test(location.pathname) ? <Outlet /> : <><h1 className='page-title'>works</h1><ListContainer content={elements}/></>}
             </>
         } />
     );

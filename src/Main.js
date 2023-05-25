@@ -8,7 +8,7 @@ import Interior from './pages/Interior/Interior';
 import Contacts from './pages/Contacts/Contacts';
 import Bag from './pages/Bag/Bag';
 import Footer from './components/Footer/Footer';
-
+import WorkDetails from './pages/Works/WorkDetails/WorkDetails';
 
 const Main = () => {
     return (
@@ -17,7 +17,9 @@ const Main = () => {
             <Routes>
                 <Route path='/oxygen/' element={<Home />} />
                 <Route path='/oxygen/about' element={<About />} />
-                <Route path='/oxygen/works' element={<Works />} />
+                <Route path='/oxygen/works/' element={<Works />}>
+                    <Route path=':workId' element={<WorkDetails />} />
+                </Route>
                 <Route path='/oxygen/interior' element={<Interior />} />
                 <Route path='/oxygen/contacts' element={<Contacts />} />
                 <Route path='/oxygen/bag' element={<Bag />} />

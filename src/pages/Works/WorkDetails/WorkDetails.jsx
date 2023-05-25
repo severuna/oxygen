@@ -1,0 +1,33 @@
+import React from 'react';
+import './WorkDetails.css';
+import Button from '../../module/Button/Button';
+import { useParams } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+
+const WorkDetails = () => {
+
+    const { workId } = useParams();
+
+    const WORKS_LIST= useSelector((state) => state.works);
+
+    let work = WORKS_LIST[workId];
+
+    return (
+            <div className='work-head row'>
+                <img src={work.src} alt={work.title} className='work-head__img' />
+                <div className='work-head__main column'>
+                    <h1 className='page-title'>{work.title}</h1>
+                    <p className='work-head__characters'><strong>size:</strong> {work.size}</p>
+                    <p className='work-head__characters'><strong>weight:</strong> {work.weight} kg</p>
+                    <p className='work-head__characters'><strong>year:</strong> {work.year}</p>
+                    <p className='work-head__characters'><strong>description:</strong> {work.description}</p>
+                    <div className='work-head__order row'>
+                        <p className='work-head__characters'><strong>{work.price}$</strong></p>
+                        <Button variant='order' />
+                    </div>
+                </div>
+            </div>
+    );
+};
+
+export default WorkDetails;
