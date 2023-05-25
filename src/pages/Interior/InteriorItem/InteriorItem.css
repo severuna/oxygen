@@ -1,7 +1,9 @@
 .interior-item {
-    width: 28rem;
+    min-width: 15rem;
+    min-height: 15rem;
+    width: 30%;
     background-size: cover;
-    height: 28rem;
+    padding-top: 30%;
     position: relative;
 }
 

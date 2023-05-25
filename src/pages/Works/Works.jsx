@@ -12,9 +12,9 @@ const Works = () => {
     let elements = [];
 
     WORKS_LIST.forEach((element) => {
-        elements.push(<Work key={element.id} {...element}/>)
+        elements.push(<Work key={element.id + Math.random()} {...element}/>)
     });
-
+    
     return (
         <Section content={
             <>
