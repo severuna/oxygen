@@ -2,7 +2,8 @@ import React from 'react';
 import './WorkDetails.css';
 import Button from '../../module/Button/Button';
 import { useParams } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
+import setOrderAction from '../../../store/actions/order.actions';
 
 const WorkDetails = () => {
 
@@ -11,6 +12,17 @@ const WorkDetails = () => {
     const WORKS_LIST= useSelector((state) => state.works);
 
     let work = WORKS_LIST[workId];
+
+    const dispatch = useDispatch();
+
+    const addOrder = ( e ) => {
+
+        e.preventDefault();
+
+        let order = work;
+
+        dispatch(setOrderAction({order}));
+    }
 
     return (
             <div className='work-head row'>
@@ -23,7 +35,7 @@ const WorkDetails = () => {
                     <p className='work-head__characters'><strong>description:</strong> {work.description}</p>
                     <div className='work-head__order row'>
                         <p className='work-head__characters'><strong>{work.price}$</strong></p>
-                        <Button variant='order' />
+                        <Button variant='order' func={(e) => addOrder(e)} />
                     </div>
                 </div>
             </div>
