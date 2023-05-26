@@ -1,8 +1,8 @@
 import React from 'react';
 import './Bag.css';
 import Section from '../module/Section/Section';
-import ListContainer from '../module/ListContainer/ListContainer';
-import WorkItem from '../Works/Work/Work';
+import ListContainer from '../module/ListContainer/ListContainer'
+import OrderItem from './OrderItem/OrderItem';
 import { useSelector } from 'react-redux';
 
 const Bag = () => {
@@ -19,7 +19,7 @@ const Bag = () => {
 
         ORDER_LIST.orders.forEach((element) => {
             
-            elements.push(<WorkItem key={element.order.id + Math.random()} {...element.order}/>);
+            elements.push(<OrderItem key={element.id + Math.random()} {...element}/>);
 
         });
     }

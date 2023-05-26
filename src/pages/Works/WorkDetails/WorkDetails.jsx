@@ -24,7 +24,10 @@ const WorkDetails = () => {
 
         let order = work;
 
-        dispatch(setOrderAction({order}));
+        dispatch(setOrderAction({
+            ...order,
+            counter: 1
+        }));
 
         setVisible('visible');
 
