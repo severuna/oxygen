@@ -21,8 +21,6 @@ const Works = () => {
     return (
         <Section content={
             <>
-                {/* <h1 className='page-title'>works</h1>
-                <ListContainer content={elements}/> */}
                 {/[0-9]/.test(location.pathname) ? <Outlet /> : <><h1 className='page-title'>works</h1><ListContainer content={elements}/></>}
             </>
         } />

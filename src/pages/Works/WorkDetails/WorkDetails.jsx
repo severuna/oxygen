@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './WorkDetails.css';
 import Button from '../../module/Button/Button';
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import setOrderAction from '../../../store/actions/order.actions';
+import order from './img/order.svg';
 
 const WorkDetails = () => {
+
+    const [ visible, setVisible] = useState('hidden');
 
     const { workId } = useParams();
 
@@ -22,7 +25,15 @@ const WorkDetails = () => {
         let order = work;
 
         dispatch(setOrderAction({order}));
+
+        setVisible('visible');
+
+        setTimeout(() => {
+            setVisible('hidden');
+        }, 1000)
+
     }
+
 
     return (
             <div className='work-head row'>
@@ -35,7 +46,10 @@ const WorkDetails = () => {
                     <p className='work-head__characters'><strong>description:</strong> {work.description}</p>
                     <div className='work-head__order row'>
                         <p className='work-head__characters'><strong>{work.price}$</strong></p>
-                        <Button variant='order' func={(e) => addOrder(e)} />
+                        <div className='order row'>
+                            <Button variant='order' func={(e) => addOrder(e)} />
+                            <img src={order} alt='order' style={{ visibility :` ${visible}`, }} className={`order-img`} />
+                        </div>
                     </div>
                 </div>
             </div>
