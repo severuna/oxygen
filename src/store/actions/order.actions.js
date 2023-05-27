@@ -1,8 +1,13 @@
-const setOrderAction = ( order ) => {
+export const setOrderAction = ( order ) => {
     return {
         type: 'add', 
         payload: order
     };
 };
 
-export default setOrderAction;
+export const removeOrderAction = ( order ) => {
+    return {
+        type: 'remove', 
+        payload: order
+    };
+};

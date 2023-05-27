@@ -17,6 +17,10 @@ const orderReducer = ( state = INITIAL_STATE, action) => {
             }
         }
 
+        case 'remove': {
+            return {orders: state.orders.filter((element) => element.id !== action.payload.id)};
+        }
+
         default: {
             return state
         }

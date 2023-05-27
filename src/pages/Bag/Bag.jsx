@@ -11,17 +11,15 @@ const Bag = () => {
 
     let elements = [];
 
-    if(Object.keys(ORDER_LIST).length === 0 ) {
+    if(Object.keys(ORDER_LIST).length === 0 || ORDER_LIST.orders.length === 0) {
 
         elements = <h2 className='title'>Your order list is empty.</h2>
 
     } else {
 
-        ORDER_LIST.orders.forEach((element) => {
-            
-            elements.push(<OrderItem key={element.id + Math.random()} {...element}/>);
+        ORDER_LIST.orders.forEach((element) =>  elements.push(<OrderItem key={element.id + Math.random()} {...element}/>)
 
-        });
+        );
     }
 
     return (

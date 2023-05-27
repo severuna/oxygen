@@ -1,8 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './OrderItem.css';
-import Button from '../../module/Button/Button';
+import { removeOrderAction } from '../../../store/actions/order.actions';
+import { useDispatch } from 'react-redux';
 
 const OrderItem = ( props ) => {
+
+    const [state, setState] = useState(props);
+
+    const dispatch = useDispatch();
+
+    const removeOrder = ( e ) => {
+        e.preventDefault();
+
+        setState(props)
+
+        dispatch(removeOrderAction(state));
+
+    }
+
     return (
         <div className='order-item row'>
             <div className='order-item__product column'>
@@ -16,7 +31,7 @@ const OrderItem = ( props ) => {
                     <p className='description'>{props.counter}</p>
                     <button className='order-item__btn'>+</button>
                 </div>
-                <button className='order-item__btn'>remove</button>
+                <button className='order-item__btn' onClick={(e) => removeOrder(e)}>remove</button>
             </div>
         </div>
     );

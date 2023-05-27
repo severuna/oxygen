@@ -3,7 +3,7 @@ import './WorkDetails.css';
 import Button from '../../module/Button/Button';
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import setOrderAction from '../../../store/actions/order.actions';
+import {setOrderAction} from '../../../store/actions/order.actions';
 import order from './img/order.svg';
 
 const WorkDetails = () => {
