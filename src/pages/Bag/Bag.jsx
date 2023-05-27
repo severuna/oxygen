@@ -17,8 +17,8 @@ const Bag = () => {
 
     } else {
 
-        ORDER_LIST.orders.forEach((element) =>  elements.push(<OrderItem key={element.id + Math.random()} {...element}/>)
-
+        ORDER_LIST.orders.filter((element) =>  Number(element.id) >= 0 ? elements.push(<OrderItem key={element.id + Math.random()} {...element}/>)
+        : null
         );
     }
 

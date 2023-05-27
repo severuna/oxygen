@@ -26,7 +26,7 @@ const WorkDetails = () => {
 
         dispatch(setOrderAction({
             ...order,
-            counter: 1
+            counter: 1 
         }));
 
         setVisible('visible');

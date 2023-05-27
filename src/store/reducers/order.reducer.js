@@ -2,6 +2,7 @@ const INITIAL_STATE = {};
 
 const orderReducer = ( state = INITIAL_STATE, action) => {
 
+
     switch (action.type) {
 
         case 'add': {
@@ -10,6 +11,7 @@ const orderReducer = ( state = INITIAL_STATE, action) => {
                 orders: state.orders ? 
                     [
                         ...state.orders,
+                        state.orders.filter((element) => Number(element.id) === Number(action.payload.id) ? element.counter++ : action.payload),
                         action.payload
                     ]
                     : 
@@ -18,7 +20,7 @@ const orderReducer = ( state = INITIAL_STATE, action) => {
         }
 
         case 'remove': {
-            return {orders: state.orders.filter((element) => element.id !== action.payload.id)};
+            return {orders: state.orders.filter((element) => Number(element.id) !== Number(action.payload.id))};
         }
 
         default: {
