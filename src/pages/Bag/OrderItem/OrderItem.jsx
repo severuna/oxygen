@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './OrderItem.css';
-import { removeOrderAction } from '../../../store/actions/order.actions';
+import { removeOrderAction, increment, decrement } from '../../../store/actions/order.actions';
 import { useDispatch } from 'react-redux';
 
 const OrderItem = ( props ) => {
@@ -18,6 +18,24 @@ const OrderItem = ( props ) => {
 
     }
 
+    const incrementCounter = ( e ) => {
+        e.preventDefault();
+
+        setState(props)
+
+        dispatch(increment(state));
+
+    }
+
+    const decrementCounter = ( e ) => {
+        e.preventDefault();
+
+        setState(props)
+
+        dispatch(decrement(state));
+
+    }
+
     return (
         <div className='order-item row'>
             <div className='order-item__product column'>
@@ -27,9 +45,9 @@ const OrderItem = ( props ) => {
             </div>
             <div className='order-item__counter column'>
                 <div className='counter row'>
-                    <button className='order-item__btn'>-</button>
+                    <button className='order-item__btn' onClick={(e) => decrementCounter(e)}>-</button>
                     <p className='description'>{props.counter}</p>
-                    <button className='order-item__btn'>+</button>
+                    <button className='order-item__btn' onClick={(e) => incrementCounter(e)}>+</button>
                 </div>
                 <button className='order-item__btn' onClick={(e) => removeOrder(e)}>remove</button>
             </div>

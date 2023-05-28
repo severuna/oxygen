@@ -11,3 +11,17 @@ export const removeOrderAction = ( order ) => {
         payload: order
     };
 };
+
+export const increment = ( order ) => {
+    return {
+        type: 'increment',
+        payload: order
+    }
+}
+
+export const decrement = ( order ) => {
+    return {
+        type: 'decrement',
+        payload: order
+    }
+}
